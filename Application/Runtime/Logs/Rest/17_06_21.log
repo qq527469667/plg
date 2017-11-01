@@ -1,0 +1,39 @@
+[ 2017-06-21T10:17:31+08:00 ] 192.168.101.43 /rest/sdk/register
+ERR: Redis server went away
+
+[ 2017-06-21T10:17:42+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-21T10:17:52+08:00 ] 192.168.101.43 /rest/sdk/register
+ERR: Redis server went away
+
+[ 2017-06-21T10:17:55+08:00 ] 192.168.101.43 /rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-06-21T10:17:58+08:00 ] 192.168.101.43 /rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-06-21T10:17:59+08:00 ] 192.168.101.43 /rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-06-21T10:18:04+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-21T10:22:23+08:00 ] 192.168.101.43 /rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-06-21T10:22:31+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-21T10:25:59+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-21T10:26:51+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-21T10:26:53+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-21T10:26:55+08:00 ] 192.168.101.40 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+

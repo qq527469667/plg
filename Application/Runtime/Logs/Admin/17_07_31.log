@@ -1,0 +1,13 @@
+[ 2017-07-31T16:29:07+08:00 ] 127.0.0.1 /admin/order/setGameId
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myserver.my_my_games' doesn't exist
+
+[ 2017-07-31T16:29:12+08:00 ] 127.0.0.1 /admin/order/setGameId
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myserver.my_my_games' doesn't exist
+
+[ 2017-07-31T18:15:46+08:00 ] 127.0.0.1 /admin/order/index.html
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-07-31T19:41:02+08:00 ] 127.0.0.1 /admin/report/firstSearch.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myserver.my_record_total_game_idn' doesn't exist
+

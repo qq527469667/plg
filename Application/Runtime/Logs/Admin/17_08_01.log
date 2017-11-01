@@ -1,0 +1,3 @@
+[ 2017-08-01T14:20:31+08:00 ] 127.0.0.1 /admin/report/keepSearch.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myserver.my_record_game_idr' doesn't exist
+

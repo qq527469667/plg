@@ -1,0 +1,114 @@
+[ 2017-08-10T10:05:20+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T10:05:20+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T10:05:20+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T10:05:20+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T10:47:08+08:00 ] 127.0.0.1 /Home/index/notice
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'esc LIMIT 5' at line 1
+
+[ 2017-08-10T15:24:44+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T15:24:44+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T15:24:44+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T15:24:44+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-08-10T16:29:10+08:00 ] 127.0.0.1 /Home/index/notice?laow=123&guijie=456
+ERR: 模板不存在:./Application/Home/View/Index/notice.html
+
+[ 2017-08-10T17:55:02+08:00 ] 127.0.0.1 /Home/index/notice
+ERR: 模板不存在:./Application/Home/View/Index/notice.html
+
+[ 2017-08-10T18:39:20+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:40+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:41+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:42+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:42+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:46+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:47+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:47+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:47+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:47+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:48+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:48+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:48+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:48+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:48+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:49+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:49+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:49+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:49+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:49+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:57+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:57+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:58+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:58+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:59+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:59+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+
+[ 2017-08-10T18:39:59+08:00 ] 127.0.0.1 /getChild
+ERR: 无法加载控制器:GetChild
+

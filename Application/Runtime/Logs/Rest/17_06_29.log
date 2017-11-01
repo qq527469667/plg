@@ -1,0 +1,33 @@
+[ 2017-06-29T15:18:36+08:00 ] 192.168.101.40 /rest/sdk/item?&site=renren
+ERR: 参数错误或者未定义:paymentType
+
+[ 2017-06-29T15:19:54+08:00 ] 192.168.101.40 /rest/sdk/item?site=renren
+ERR: 参数错误或者未定义:paymentType
+
+[ 2017-06-29T15:20:12+08:00 ] 192.168.101.40 /rest/sdk/item?site=renren
+ERR: 参数错误或者未定义:paymentType
+
+[ 2017-06-29T15:20:59+08:00 ] 127.0.0.1 /rest/sdk/item?site=renren
+ERR: 参数错误或者未定义:paymentType
+
+[ 2017-06-29T15:36:43+08:00 ] 127.0.0.1 /Rest/sdk/siteAutoSet
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id3' doesn't exist
+
+[ 2017-06-29T19:49:21+08:00 ] 192.168.101.43 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-29T19:49:24+08:00 ] 192.168.101.43 /rest/sdk/item?paymentType=iOS&site=renren
+ERR: Redis server went away
+
+[ 2017-06-29T19:49:24+08:00 ] 192.168.101.43 /rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-06-29T19:49:30+08:00 ] 192.168.101.43 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-29T19:50:10+08:00 ] 192.168.101.43 /rest/sdk/buoys?site=renren
+ERR: Redis server went away
+
+[ 2017-06-29T20:07:35+08:00 ] 192.168.101.43 /rest/sdk/buoys?site=renren
+ERR: read error on connection
+

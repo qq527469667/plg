@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>游戏1</title>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.1.1/style/weui.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/jquery-weui/1.0.1/css/jquery-weui.min.css">
+<link rel="stylesheet" href="__PUBLIC__/wap/css/amazeui.css">
+<link rel="stylesheet" href="__PUBLIC__/wap/css/bass.css">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/wap/js/amazeui.js"></script>
+</head>
+
+<style type="text/css">
+    body{background:#dddddd;}
+    img{vertical-align: sub;}
+    /* 大小劃分 */
+    .header{
+        height:7%;
+    }
+    .maintain{
+        margin-top: 3.6%;
+        height:9.4%;
+    }
+    .mainbody{
+        height:77%;
+        display:none;
+    }
+
+    .mainbody1{
+        height:47%;
+    }
+    .footer{
+        height:53%;
+    }
+
+    /* 頭部 */
+    .bar{
+        text-align:center;
+        background: #ff8333;
+        color:#FFF;
+        position: relative;
+    }
+    .bar img{
+        width:1.4em;
+        top: .25em;
+        left: 2.4%;
+        position:absolute;
+    }
+
+    /* 中部 */
+    .maintain-1{
+        background: #ff8333;
+        width: 89.12%;
+        height: 100%;
+        margin: auto;
+        border-radius: .9em .9em 0 0;
+    }
+    .maintain-1-tab{
+        /* background: #fff; */
+        border-radius: .8em .8em 0 0;
+
+        height:101%;
+    }
+    .maintain-1-tab-chil{
+        width:50%;
+
+        float: left;
+    }
+    .tab-on{
+        background: #fff;
+        border-radius: .8em .8em 0 0;
+        height: 100%;
+    }
+    .body-on{
+        display:block;
+    }
+    .maintain-1-tab-ce{
+        font-size: .6em;
+        text-align: center;
+        margin: auto;
+        width:20.2%;
+        border-bottom: .3em solid #ff8333;
+        height:99%;
+        padding-top: .4em;
+    }
+
+
+
+    /* 模版結束 */
+
+    .mainbody-style{
+        background: #ff8333;
+        margin: auto;
+        width: 89.12%;
+        height:100%;
+    }
+
+    /* 旧列表开始 */
+    .maintain-1-main{
+        padding: .5em 2em;
+        height:100%;
+        width:100%;
+        background: #fff;
+    }
+    .maintain-1-main-tab{
+        height:34.3%;
+        width:100%;
+        border-bottom: .05em solid #ff8333;
+        position: relative;
+    }
+    .maintain-1-main-tab-left{
+        float: left;
+        height:100%;
+        width:10%;
+    }
+    .maintain-1-main-tab-left img{
+        width:50%;
+        margin-left:40%;
+    }
+    .maintain-1-main-tab-right{
+        float: left;
+        height:100%;
+        width:85%;
+        font-size: .6em;
+        transform: translateY(35%);
+        text-align: center;
+    }
+    .maintain-1-main-tab-mly{
+        float: left;
+        height:100%;
+        width:5%;
+        text-align: right;
+    }
+    .maintain-1-main-tab-mly img{
+        width:80%;
+        margin-right:15%;
+    }
+    /* 旧列表结束 */
+
+    /* 腳步 */
+    .footer-1{
+        background: #fff;
+        width: 100%;
+        height: 100%;
+    }
+    .footer-1-tab{
+        float: left;
+        height:50%;
+        width:33.3%;
+        border: .05em solid #d8d8d8;
+        text-align: center;
+    }
+    .footer-1-tab-chil{
+        height:70%;
+        margin: auto;
+        padding: .2em;
+    }
+    .footer-1-tab-desc{
+        font-size: .6em;
+    }
+    .footer-1-tab-chil img{
+        height:95%;
+        max-width: 80%;
+        vertical-align: middle;
+    }
+
+
+    .mainbody1 input{
+        width:100%;
+        height: 100%;
+        text-align:center;
+        border-color: #fff!important;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: #fff;
+        border: 1px solid #fff;
+        -webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(255,255,255,0.075);
+        box-shadow: inset 0 1px 1px rgba(255,255,255,,0.075);
+        -webkit-transition: border linear .2s,box-shadow linear .2s;
+        -moz-transition: border linear .2s,box-shadow linear .2s;
+        -o-transition: border linear .2s,box-shadow linear .2s;
+        transition: border linear .2s,box-shadow linear .2s;
+
+
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:boder-box;
+
+        border:0;
+    }
+
+    /* 历史记录 */
+    .mainbody-ls{
+        /* height:100%; */
+        padding-bottom: 5px;
+        width:89.2%;
+        margin:auto;
+        background:#fff;
+
+        font-size:.6em;
+    }
+    .mainbody-ls-title{
+        color:#ff0000;
+        border-bottom: 1px solid #dedede;
+        padding-left: 25px;
+        padding-top: 14px;
+        padding-bottom: 10px;
+    }
+
+    /* 历史记录列表 */
+    .mainbody-ls-list{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .mainbody-ls-list li{
+        margin-bottom:10px;
+    }
+
+    .lsjl-list{
+        position: relative;
+        border:1px solid #dedede;
+        width:100%;
+        box-shadow: 2px 2px 2px #dedede;
+    }
+    .lsjl-list p{
+        margin: 0;
+        padding: 3px 15px;
+    }
+    .lsjl-list img{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width:5%;
+    }
+
+    /* 點擊變色 */
+    .click-chuzhi-color{
+        background-color: rgba(255, 131, 51, 0.18)!important;
+    }
+
+    /* 列表 */
+    .data-select-list{
+        font-size:.6em;
+        height:100%;
+        background:#fff;
+    }
+    .data-select-list li{
+        position: relative;
+        height:31.3%;
+        border: 0px solid #dedede;
+        margin-bottom: 0px;
+        border-bottom: 1px solid #FF8333;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="bar">
+            <img src="__PUBLIC__/wap/i/btn_back@2x.png" alt="返回">
+            MyCard儲值
+        </div>
+    </div>
+
+    <div class="maintain">
+        <div class="maintain-1">
+            <div class="maintain-1-tab">
+                <div class="maintain-1-tab-chil tab-on"  data-id="tab-1">
+                    <div class="maintain-1-tab-ce">
+                        儲值遊戲
+                    </div>
+                </div>
+                <div class="maintain-1-tab-chil" style="float: right;"  data-id="tab-2">
+                    <div class="maintain-1-tab-ce">
+                        歷史記錄
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-1" class="mainbody body-on">
+        <div class="mainbody1">
+            <div class="mainbody-style">
+                <ul class="am-list data-select-list" style="font-size:.6em">
+                    <li>
+                        <img style="position:absolute; left: 5%; top: 15%; height:70%" src="__PUBLIC__/wap/i/icon_game@3x.png">
+                        <input type="text" id='game-picker' value="噗龍唝天團" />
+                        <img style="position:absolute; right: 5%; top: 35%; height:32.5%" src="__PUBLIC__/wap/i/btn_dot@2x.png">
+                    </li>
+                    <li>
+                        <img style="position:absolute; left: 5%; top: 15%; height:70%" src="__PUBLIC__/wap/i/icon_server@2x.png">
+                        <input type="text" id='server-picker' value="S1-桃園監獄" />
+                        <img style="position:absolute; right: 5%; top: 35%; height:32.5%" src="__PUBLIC__/wap/i/btn_dot@2x.png">
+                    </li>
+                    <li>
+                        <img style="position:absolute; left: 5%; top: 15%; height:70%" src="__PUBLIC__/wap/i/icon_charector@2x.png">
+                        <input type="text" id='user-picker' value="大屌萌妹" />
+                        <img style="position:absolute; right: 5%; top: 35%; height:32.5%" src="__PUBLIC__/wap/i/btn_dot@2x.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-1">
+                <div  class="footer-1-tab" data-lulu="xinyongka.html">
+                    <div class="footer-1-tab-chil">
+                        <img src="__PUBLIC__/wap/i/icon_card@3x.png">
+                    </div>
+                    <div class="footer-1-tab-desc">
+                        信用卡
+                    </div>
+                </div>
+                <div  class="footer-1-tab" data-lulu="phonePay.html">
+                    <div class="footer-1-tab-chil">
+                        <img src="__PUBLIC__/wap/i/icon_phone@3x.png">
+                    </div>
+                    <div class="footer-1-tab-desc">
+                        手機/市話
+                    </div>
+                </div>
+                <div  class="footer-1-tab" data-lulu="dianshu.html">
+                    <div class="footer-1-tab-chil">
+                        <img src="__PUBLIC__/wap/i/icon_pointcard@3x.png">
+                    </div>
+                    <div class="footer-1-tab-desc">
+                        點數卡
+                    </div>
+                </div>
+                <div  class="footer-1-tab" data-lulu="wallet.html">
+                    <div class="footer-1-tab-chil">
+                        <img src="__PUBLIC__/wap/i/icon_wallet@3x.png">
+                    </div>
+                    <div class="footer-1-tab-desc">
+                        電子錢包
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-2"  class="mainbody">
+        <div class="mainbody-ls">
+            <div class="mainbody-ls-title">系統記錄您最近的儲值記錄</div>
+            <div class="mainbody-ls-list">
+                <ul class="am-list">
+                    <li>
+                        <div class="lsjl-list" data-open="false">
+                            <p>時間：2017-07-24 15:14:13</p>
+                            <p>遊戲：噗龍唝天團</p>
+                            <p>訂單狀態：1:儲值成功</p>
+
+                            <p class="lsjl-list-p" style="display:none;">訂單號：201707245123412468</p>
+                            <p class="lsjl-list-p" style="display:none;">品項：1:99</p>
+
+                            <img class="lsjl-list-img-1" src="__PUBLIC__/wap/i/btn_down@3x.png">
+                            <img class="lsjl-list-img-2" style="display:none;" src="__PUBLIC__/wap/i/btn_up@3x.png">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="lsjl-list" data-open="false">
+                            <p>時間：2017-07-24 15:14:13</p>
+                            <p>遊戲：噗龍唝天團</p>
+                            <p>訂單狀態：1:儲值成功</p>
+
+                            <p class="lsjl-list-p" style="display:none;">訂單號：201707245123412468</p>
+                            <p class="lsjl-list-p" style="display:none;">品項：1:99</p>
+
+                            <img class="lsjl-list-img-1" src="__PUBLIC__/wap/i/btn_down@3x.png">
+                            <img class="lsjl-list-img-2" style="display:none;" src="__PUBLIC__/wap/i/btn_up@3x.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="//cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery-weui/1.0.1/js/jquery-weui.min.js"></script>
+<script type="text/javascript">
+    // ffe8d9  顏色
+    $("#game-picker").picker({
+      title: "請選擇遊戲",
+      cols: [
+        {
+          textAlign: 'center',
+          values: ['噗龍唝天團', '洗剪吹天團']
+        }
+      ]
+    });
+
+    $("#server-picker").picker({
+      title: "請選擇服務器",
+      cols: [
+        {
+          textAlign: 'center',
+          values: ['S1-桃園監獄', 'S2-劉大耳']
+        }
+      ]
+    });
+
+    $("#user-picker").picker({
+      title: "請選擇角色",
+      cols: [
+        {
+          textAlign: 'center',
+          values: ['玩個雞兒', '玩個奶子', '大屌萌妹']
+        }
+      ]
+    });
+
+
+    // tab切換
+    $(".maintain-1").on('click', '.maintain-1-tab-chil', function() {
+        $(".tab-on").removeClass('tab-on');
+        $(".body-on").removeClass('body-on');
+
+        var id = $(this).attr('data-id');
+        $(this).addClass("tab-on");
+        $("#"+id).addClass("body-on");
+    });
+
+    //儲值信息展開
+    $(".lsjl-list").on('click', function() {
+        var isTure = $(this).attr('data-open');
+        if (isTure == "false") {
+            $(this).children(".lsjl-list-p").show(200);
+            $(this).children(".lsjl-list-img-2").show();
+            $(this).children(".lsjl-list-img-1").hide();
+            $(this).attr('data-open', "true");
+        }else{
+            $(this).children(".lsjl-list-p").hide(200);
+            $(this).children(".lsjl-list-img-2").hide();
+            // sleep(1000);
+            $(this).children(".lsjl-list-img-1").show();
+            $(this).attr('data-open', "false");
+        };
+    });
+
+    // 儲值方式
+    $(".footer-1-tab").on('click', function() {
+        $(this).addClass('click-chuzhi-color');
+        var url = $(this).attr('data-lulu');
+
+        var game_name = $("#game-picker").val();
+        var server_name = $("#server-picker").val();
+        var user_name = $("#user-picker").val();
+        var data = {
+            'game_name' : $("#game-picker").val(),
+            'server_name' : $("#server-picker").val(),
+            'user_name' : $("#user-picker").val(),
+            'type' : 'game'
+        }
+        $.post('dataSet.html', data, function(data) {
+            data = JSON.parse(data);
+            if (data.code == 1) {
+                setTimeout("$('.click-chuzhi-color').removeClass('click-chuzhi-color')",200);
+                // window.location.href=url+"?game_name="+game_name+"&server_name="+server_name+"&user_name="+user_name;
+                window.location.href=url;
+            }else{
+                alert(data.msg);
+            };
+        });
+
+    });
+</script>

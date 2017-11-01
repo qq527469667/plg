@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>噗嚨共戰記</title>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta property="og:url"           content="http://www.fun4-play.com/home/index/event?type=1" />
+<meta property="og:title"         content="噗嚨共戰記|當個噗嚨共 一起噗嚨共" />
+<meta property="og:description"   content="生活不容易，能快樂大笑為什麼不笑？極致無厘頭的偽三國逆塔防手遊《噗嚨共戰記》9月5日即將上線，笑不死你當我輸！" />
+<meta property="og:image"         content="http://www.fun4-play.com/Public/Home/landing/pc/img/share_636x470.png" />
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/landing/phone/css/bass.css">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Admin/js/layer/layer.js"></script>
+</head>
+<body>
+<style type="text/css">
+    body{
+        background-size: contain;
+        background: url('__PUBLIC__/Home/landing/pc/img/bg_1920x3633.jpg') no-repeat top center;
+    }
+    a:link,a:visited{
+        text-decoration:none;  /*超链接无下划线*/
+    }
+    a:hover{
+        text-decoration:none;  /*鼠标放上去有下划线*/
+    }
+
+    .main{
+        width:1200px;
+        height:3633px;
+        margin:auto;
+    }
+
+    .main-list-min{
+        float: left;
+        height:640px;
+        position:relative;
+    }
+
+    .main-list-mii{
+        float: left;
+        height:640px;
+        position:relative;
+    }
+
+    /* 地区选择 */
+    .main-list-min-left1{
+        width: 200px;
+        height: 40px;
+        background: #ffb070;
+        position: absolute;
+        top: 350px;
+        left: 55px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-left2{
+        width: 200px;
+        height: 40px;
+        background: #ffb070;
+        position: absolute;
+        top: 350px;
+        right: 60px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-left3{
+        width:430px;
+        height:60px;
+        position: absolute;
+        top: 485px;
+        left: 55px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .list-on{
+        color:#000;
+    }
+    .list-on .list-on-zazs{
+        display:block !important;
+    }
+
+
+    #CardID{
+        position: absolute;
+        top: 405px;
+        left: 55px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+        text-align:center;
+        color:#9999A5;
+
+        width:420px;
+        height:50px;
+        border-color: #ff8333!important;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -webkit-transition: border linear .2s,box-shadow linear .2s;
+        -moz-transition: border linear .2s,box-shadow linear .2s;
+        -o-transition: border linear .2s,box-shadow linear .2s;
+        transition: border linear .2s,box-shadow linear .2s;
+    }
+    .main-list-min-right1{
+        position: absolute;
+        top: 345px;
+        left: 55px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-right2{
+        position: absolute;
+        top: 345px;
+        left: 200px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-right3{
+        position: absolute;
+        top: 345px;
+        left: 355px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+
+    .main-list-min-lb1{
+        width:430px;
+        height:60px;
+        position: absolute;
+        top: 125px;
+        left: 55px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-lb2{
+        width:430px;
+        height:60px;
+        position: absolute;
+        top: 230px;
+        left: 55px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-rb1{
+        width:430px;
+        height:60px;
+        position: absolute;
+        top: 160px;
+        left: -20px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .main-list-max{
+        position: relative;
+        width:1200px;
+        height:500px;
+    }
+    .main-list-max-rb1{
+        width:310px;
+        height:60px;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-max-rb2{
+        width:310px;
+        height:60px;
+        position: absolute;
+        top: 30px;
+        left: 290px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-max-rb3{
+        width:310px;
+        height:60px;
+        position: absolute;
+        top: 30px;
+        left: 600px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-max-rb4{
+        width:310px;
+        height:60px;
+        position: absolute;
+        top: 30px;
+        left: 930px;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+
+
+/*     .layui-layer-tips .layui-layer-content{
+        position:relative;
+        width:300px;
+        line-height:22px;
+        min-width:12px;
+        padding:5px 10px;
+        font-size:12px;
+        _float:left;
+        border-radius:3px;
+        box-shadow:0px 0px 0px rgba(0,0,0,.3) !important;
+        background-color:rgba(0,0,0,.0);
+        color:#fff
+    } */
+
+
+    #match_video_mp4{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* z-index: 45; */
+        margin: auto;
+    }
+</style>
+<div class="main">
+    <div style="height:1100px; position:relative;">
+        <p style="position:absolute;bottom:100px;    bottom: 200px;font-size: 400%;left: 175px;">{$num}</p>
+    </div>
+    <div style="height:1175px">
+        <div style="height:640px">
+
+            <!-- 左上 地區-->
+            <div class="main-list-min" style="width:550px">
+                <div class="main-list-min-left1 list-on" data-are="1">
+                    <a class="main-list-min-let1" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/choice_on.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/choice_off.png">
+                    </a>
+
+                    <span style="position: absolute; top: 9px;  left: 55px;">台湾玩家</span>
+                </div>
+                <div class="main-list-min-left2" data-are="2">
+                    <a class="main-list-min-let2" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/choice_on.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/choice_off.png">
+                    </a>
+                    <span style="position: absolute; top: 9px;  left: 55px;">港澳玩家</span>
+                </div>
+                <div>
+                    <input type="text" name="" id="CardID" placeholder="請輸入手機號碼" onfocus="this.placeholder=''" onblur="this.placeholder='請輸入手機號碼'">
+                </div>
+                <div class="main-list-min-left3">
+                    <a class="main-list-min-let3" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/btn_login_hover_451x96.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/btn_login_451x96.png">
+                    </a>
+                </div>
+            </div>
+
+            <!-- 右上 禮包-->
+            <div class="main-list-min" style="width:650px">
+                <div class="main-list-min-right1">
+                    <a class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jt_hover_132x154.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/icon_jt_132x154.png">
+                    </a>
+                </div>
+
+                <div class="main-list-min-right2">
+                    <a class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_clb_hover_150x155.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/icon_clb_150x155.png">
+                    </a>
+                </div>
+
+                <div class="main-list-min-right3">
+                    <a class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jiut_hover_132x155.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/icon_jiut_hover_132x155.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="height:535px">
+            <!-- 左下 fb-->
+            <div class="main-list-min" style="width:550px">
+                <div class="main-list-min-lb1">
+                    <!-- <a class="mageji1" href="javascript:;"> -->
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/btn_like_hover_451x96.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/btn_like_451x96.png">
+                    <!-- </a> -->
+                </div>
+                <div class="main-list-min-lb2">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.fun4-play.com%2Fhome%2Findex%2Fevent&display=popup&ref=plugin&src=like&kid_directed_site=0&app_id=452695705080329" target="_blank">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/btn_fxfb_hover_451x96.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/btn_fxfb_451x96.png">
+                    </a>
+                </div>
+                <div class="fb-like" data-href="https://www.facebook.com/pulongon.fun4play" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false" style="    position: absolute; top: 157px;   left: 330px;"></div>
+
+            </div>
+            <!-- 右下 視頻 -->
+            <div class="main-list-min" style="width:650px">
+                <div class="main-list-min-rb1">
+                    <a class="video1" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/btn_pv_hover_219x119.png" style="left: 0;position: absolute; display: none;">
+                        <img src="__PUBLIC__/Home/landing/pc/img/btn_pv_219x119.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height:1212px">
+        <div class="main-list-max">
+
+            <div class="main-list-max-rb1">
+                <?php if ($num >= 5000): ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_5000_get_275x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_5000_get_275x395.png">
+
+                <div>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jt_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jt_get_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png">
+                    </a>
+                </div>
+                <?php else: ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_5000_get_275x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_5000_275x395.png">
+
+                <div>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jt_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jt_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_87x86.png">
+                    </a>
+                </div>
+                <?php endif; ?>
+
+
+            </div>
+
+            <div class="main-list-max-rb2">
+                <?php if ($num >= 10000): ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_10000_get_302x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_10000_get_302x395.png">
+
+                <div style="text-align:center">
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jt_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jt_get_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png">
+                    </a>
+                </div>
+                <?php else: ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_10000_get_302x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_10000_302x395.png">
+
+                <div style="text-align:center">
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jt_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jt_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_87x86.png">
+                    </a>
+                </div>
+                <?php endif; ?>
+            </div>
+
+            <div class="main-list-max-rb3">
+                <?php if ($num >= 15000): ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_15000_get_309x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_15000_get_309x395.png">
+                <div  style="text-align:center">
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jz_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jz_get_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png">
+                    </a>
+                </div>
+                <?php else: ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_15000_get_309x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_15000_309x395.png">
+                <div  style="text-align:center">
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jz_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jz_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_87x86.png">
+                    </a>
+                </div>
+                <?php endif; ?>
+            </div>
+
+            <div class="main-list-max-rb4">
+                <?php if ($num >= 20000): ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_20000_get_308x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_20000_get_308x395.png">
+                <div  style="text-align:center">
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jz_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jz_get_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png">
+                    </a>
+                </div>
+                <?php else: ?>
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_20000_get_308x395.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/icon_20000_308x395.png">
+                <div  style="text-align:center">
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jz_get_88x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_jz_88x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_get_89x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_ssh_89x86.png">
+                    </a>
+                    <a  class="mjmn" href="javascript:;">
+                        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_lb_get_87x86.png" style="left: 0;position: absolute;    margin-left: -5px; display: none;">
+                        <img style="    margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/icon_lb_87x86.png">
+                    </a>
+                </div>
+                <?php endif; ?>
+            </div>
+
+        </div>
+    </div>
+    <div style="height:146px">
+
+    </div>
+
+<!--     <div style="position: fixed;">
+        <img style="margin-left: -5px;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">
+    </div> -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="position:fixed; margin:auto;left:0; right:0; top:0; bottom:0;background:rgba(0,0,0,.0); display:none; box-shadow:0px 0px 0px rgba(0,0,0,.3) !important;border: 0px solid rgba(0,0,0,0.3);">
+        <img style="position:fixed; margin:auto;left:0; right:0; top:-200px; bottom:0; width:400px; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">
+        <a href="javascript:;"><img id="momoda" style="position:fixed; margin:auto;left:0; right:0; top:400px; bottom:0; width:50px; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/btn_close_71x71.png"></a>
+    </div>
+
+
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="position:fixed; margin:auto;left:0; right:0; top:0; bottom:0;background:rgba(0,0,0,.0); display:none; box-shadow:0px 0px 0px rgba(0,0,0,.3) !important;border: 0px solid rgba(0,0,0,0.3);">
+        <!-- <div>
+            <video width="860" height="485" src="http://img1.famulei.com/shortVideo/2017/08/201708151705408179.mp4" controls="" id="match_video_mp4" style="display: block;"></video>
+            <a href="javascript:;"><img id="momoda1" style="position:fixed; margin:auto;left:800px; right:0; top:0; bottom:430px; width:30px; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/btn_close_71x71.png"></a>
+        </div> -->
+        <div style="margin-top:54px; margin-left:25px;position: fixed;z-index: 9999; opacity: 1; display: block;    width: 800px;    height: 530px;     left: 0; right: 0;   top: 0;   bottom: 0; margin: auto;">
+            <iframe width="860" height="485" src="https://www.youtube.com/embed/c7kQQnA27e8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <img id="momoda1" style="position:fixed; margin:auto;left:850px; right:0; top:0; bottom:460px; width:30px; background:rgba(0,0,0,0) !important;z-index:99999;" src="__PUBLIC__/Home/landing/pc/img/btn_close_71x71.png">
+    </div>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.10&appId=452695705080329";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+$(".main-list-min").on('click', '.main-list-min-let2', function() {
+    $(".main-list-min-left1").removeClass('list-on');
+    $(".main-list-min-left2").addClass('list-on');
+});
+$(".main-list-min").on('click', '.main-list-min-let1', function() {
+    $(".main-list-min-left2").removeClass('list-on');
+    $(".main-list-min-left1").addClass('list-on');
+});
+$(".main-list-min").on('click', '.main-list-min-let3', function() {
+    var data = {
+            'mobile' : $("#CardID").val(),
+            'are' : $(".list-on").attr('data-are')
+        }
+    $.post('preview.html', data, function(data) {
+        data = JSON.parse(data);
+        if (data.result == 1) {
+            layer.alert("預約成功");
+        }else{
+            alert(data.msg);
+        };
+    });
+    // layer.alert("预约成功");
+});
+$(".mjmn").on('click', function() {
+    // var that = this;
+    // layer.tips('<img style="width:100% !important; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">', that, {tips:[3,'rgba(0,0,0,.0)']});
+    $('#myModal').modal({backdrop: 'static', keyboard: false});
+    $('#myModal').modal('show');
+});
+$("#momoda").on('click', function() {
+
+    $('#myModal').modal('hide');
+});
+
+
+$(".video1").on('click', function() {
+    // var that = this;
+    // layer.tips('<img style="width:100% !important; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">', that, {tips:[3,'rgba(0,0,0,.0)']});
+    $('#shipin').attr('src', 'https://www.youtube.com/embed/c7kQQnA27e8?rel=0&amp;showinfo=0');
+    $('#myModal1').modal({backdrop: 'static', keyboard: false});
+    $('#myModal1').modal('show');
+    // $('#match_video_mp4').show();
+});
+$("#momoda1").on('click', function() {
+    $('#shipin').attr('src', '');
+    $('#myModal1').modal('hide');
+    $("#match_video_mp4").trigger('pause');;
+});
+</script>

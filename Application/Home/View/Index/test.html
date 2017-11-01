@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>游戏1</title>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="__PUBLIC__/Home/landing/phone/css/amazeui.css">
+<link rel="stylesheet" href="__PUBLIC__/Home/landing/phone/css/bass.css">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/wap/js/amazeui.js"></script>
+<script src="__PUBLIC__/Admin/js/layer/layer.js"></script>
+</head>
+<style type="text/css" media="screen">
+    body{
+        background-size: contain;
+        background: url('__PUBLIC__/Plg/img/bg.jpg') no-repeat top center;
+    }
+    a:link,a:visited{
+        text-decoration:none;  /*超链接无下划线*/
+    }
+    a:hover{
+        text-decoration:none;  /*鼠标放上去有下划线*/
+    }
+
+    .main{
+        width: 1200px;
+        margin: auto;
+    }
+    .crync{
+        width: 1200px;
+        position:relative;
+    }
+
+
+    /* 輪播 */
+    .banner{
+    }
+
+    .banner-left{
+        width:548px;
+        height:349px;
+        position:relative;
+        float: left;
+        margin-right: 2px;
+        background: url('__PUBLIC__/Plg/img/lunbo.png') no-repeat top center;
+    }
+
+    .banner-dian{
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        z-index: 10000;
+        bottom: 10px;
+        right: 30px;
+        text-align: right;
+    }
+
+    .banner-right{
+        width:650px;
+        height:349px;
+        position:relative;
+        float: left;
+    }
+    .banner-right img{
+        float: left;
+        margin-left:2px;
+    }
+    /* 輪播 */
+
+
+    /* 新聞 */
+    .new{
+        background: url('__PUBLIC__/Plg/img/new.png') no-repeat top center;
+    }
+    .new-title{
+        height:55px;
+        width: 788px;
+        margin:0 206px;
+    }
+    .new-title-list{
+        float: left;
+        width: 160px;
+        height: 53px;
+        background: #ff6c00;
+        border-radius: 50px;
+        margin:0 18.5px;
+    }
+    .new-title-list-on{
+        background: #fff;
+    }
+    .new-nr-list{
+        height:425px;
+        width: 984px;
+        margin:0 108px;
+        padding: 60px 0 40px 0;
+    }
+    .new-nr-list li{
+        list-style-type:none;
+        font-size: 15px;
+        border-bottom: 1px #fff dashed;
+        padding: 10px 20px;
+    }
+
+
+    .new-page-list{
+        width: 338px;
+        margin: auto;
+        margin-right: 100px;
+    }
+    .new-page-list div{
+        float:left;
+        margin:7px;
+    }
+    /* 新闻 */
+</style>
+<body>
+<div class="main">
+    <!-- 視頻 -->
+    <div class="crync" style="height:937px">
+        <div style="height:696px"></div>
+
+        <div style="height:137px; width:257px; margin: auto;">
+            <a href="javascript:;">
+                <img src="__PUBLIC__/Plg/img/video.png" alt="視頻">
+            </a>
+        </div>
+
+        <div style="height:104px"></div>
+    </div>
+
+    <!-- 輪播 -->
+    <div class="crync" style="height:520px">
+        <div style="height:61px"></div>
+
+        <div style="height:349px">
+            <div class="banner-left">
+                <img class="banner banner_01" style="position: absolute; z-index: 1; width:100%; height:100%; padding: 22px;" src="__PUBLIC__/Plg/img/sfq_on_01.png">
+                <img class="banner banner_02" style="position: absolute; z-index: 0; width:100%; height:100%; padding: 22px;" src="__PUBLIC__/Plg/img/sfq_on_02.png">
+                <img class="banner banner_03" style="position: absolute; z-index: 0; width:100%; height:100%; padding: 22px;" src="__PUBLIC__/Plg/img/sfq_on_03.png">
+                <img class="banner banner_04" style="position: absolute; z-index: 0; width:100%; height:100%; padding: 22px;" src="__PUBLIC__/Plg/img/sfq_on_04.png">
+
+                <div class="banner-dian">
+                    <img class="banner_on banner_on_01" src="__PUBLIC__/Plg/img/dian_on.png">
+                    <img class="banner_on banner_on_02" src="__PUBLIC__/Plg/img/dian_off.png">
+                    <img class="banner_on banner_on_03" src="__PUBLIC__/Plg/img/dian_off.png">
+                    <img class="banner_on banner_on_04" src="__PUBLIC__/Plg/img/dian_off.png">
+                </div>
+            </div>
+            <div class="banner-right">
+                <div>
+                    <a href="javascript:;" data-banner-data="01">
+                        <img src="__PUBLIC__/Plg/img/sfq_01.png">
+                    </a>
+                    <img class="sfq-on sfq_01" src="__PUBLIC__/Plg/img/sfq_on_01.png">
+                </div>
+                <div>
+                    <a href="javascript:;" data-banner-data="02">
+                        <img src="__PUBLIC__/Plg/img/sfq_02.png">
+                    </a>
+                    <img class="sfq-on sfq_02" style="display: none;" src="__PUBLIC__/Plg/img/sfq_on_02.png">
+                </div>
+                <div>
+                    <a href="javascript:;" data-banner-data="03">
+                        <img src="__PUBLIC__/Plg/img/sfq_03.png">
+                    </a>
+                    <img class="sfq-on sfq_03" style="display: none;" src="__PUBLIC__/Plg/img/sfq_on_03.png">
+                </div>
+                <div>
+                    <a href="javascript:;" data-banner-data="04">
+                        <img src="__PUBLIC__/Plg/img/sfq_04.png">
+                    </a>
+                    <img class="sfq-on sfq_04" style="display: none;" src="__PUBLIC__/Plg/img/sfq_on_04.png">
+                </div>
+            </div>
+        </div>
+
+        <div style="height:110px"></div>
+    </div>
+
+    <!-- 新聞 -->
+    <div class="crync new" style="height:720px">
+        <div style="height:160px"></div>
+        <!-- 标题 -->
+        <div class="new-title">
+            <div class="new-title-list new-title-list-on">
+                <div>
+                    <p style="font-size: 18px;line-height: 100%;text-align: center; margin:17px" >+情报局+</p>
+                </div>
+            </div>
+            <div class="new-title-list">
+                <div>
+                    <p style="font-size: 18px;line-height: 100%;text-align: center; margin:17px" >+情报局+</p>
+                </div>
+            </div>
+            <div class="new-title-list">
+                <div>
+                    <p style="font-size: 18px;line-height: 100%;text-align: center; margin:17px" >+情报局+</p>
+                </div>
+
+            </div>
+            <div class="new-title-list">
+                <div>
+                    <p style="font-size: 18px;line-height: 100%;text-align: center; margin:17px" >+情报局+</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="new-nr-list">
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+            <li>
+                【情報局】遊戲送豪禮送很多豪禮送一大堆豪禮
+                <span style="float:right;">08-01</span>
+            </li>
+        </div>
+
+        <!-- 选页 -->
+        <div style="height:80px">
+            <div class="new-page-list">
+                <!-- 上一页 -->
+                <div style="width: 80px; height:33px; background:#ff6c00; border-radius: 25px;">
+                    <p style="font-size: 12px;line-height: 100%;text-align: center; margin:12px" >上一页</p>
+                </div>
+                <div style="width: 36px; height:36px; background:#ff6c00; border-radius: 25px;">
+                    <p style="font-size: 12px;line-height: 100%;text-align: center; margin:12px" >1</p>
+                </div>
+
+                <div style="width: 36px; height:36px; background:#ff6c00; border-radius: 25px;">
+                    <p style="font-size: 12px;line-height: 100%;text-align: center; margin:12px" >2</p>
+                </div>
+
+                <div style="width: 36px; height:36px; background:#ff6c00; border-radius: 25px;">
+                    <p style="font-size: 12px;line-height: 100%;text-align: center; margin:12px" >3</p>
+                </div>
+
+                <!-- 下一页 -->
+                <div style="width: 80px; height:33px; background:#ff6c00; border-radius: 25px;">
+                    <p style="font-size: 12px;line-height: 100%;text-align: center; margin:12px" >下一页</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 奴隶 -->
+        <div style="height:873px">
+
+        </div>
+
+        <!-- 信息 -->
+        <div style="height:150px">
+
+        </div>
+    </div>
+
+</div>
+</body>
+<script>
+    var banner=window.setInterval("bannerGo()",3000);
+    num = 1;
+    dem = 1;
+
+    function bannerGo () {
+        $('.banner_0'+dem).css('z-index', num);
+        $(".banner_on").attr('src', '/Public/Plg/img/dian_off.png');
+        $(".banner_on_0"+dem).attr('src', '/Public/Plg/img/dian_on.png');
+        if (dem == 4) {
+            dem = 1;
+        };
+        dem++;
+        num++;
+    }
+
+
+    $(".banner-right").on('click', 'a', function() {
+        var id = $(this).attr('data-banner-data');
+        $(".sfq-on").hide();
+        $(".sfq_"+id).show();
+    });
+</script>

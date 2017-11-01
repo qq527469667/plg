@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>噗嚨共戰記</title>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta property="og:url"           content="http://www.fun4-play.com/home/index/event?type=1" />
+<meta property="og:title"         content="噗嚨共戰記|當個噗嚨共 一起噗嚨共" />
+<meta property="og:description"   content="生活不容易，能快樂大笑為什麼不笑？極致無厘頭的偽三國逆塔防手遊《噗嚨共戰記》9月5日即將上線，笑不死你當我輸！" />
+<meta property="og:image"         content="http://www.fun4-play.com/Public/Home/landing/pc/img/share_636x470.png" />
+<!-- <link rel="stylesheet" href="__PUBLIC__/Home/landing/phone/css/amazeui.css"> -->
+<link rel="stylesheet" href="__PUBLIC__/Home/landing/phone/css/bass.css">
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<!-- <script src="__PUBLIC__/wap/js/amazeui.js"></script> -->
+<script src="__PUBLIC__/Admin/js/layer/layer.js"></script>
+</head>
+
+<style type="text/css">
+    body{
+        /* 加载背景图 */
+        /* background-image: url('__PUBLIC__/Home/landing/phone/img/bg_640x5116.jpg'); */
+
+        /* 背景图垂直、水平均居中 */
+        background-position: top center;
+
+        /* 背景图不平铺 */
+        background-repeat: no-repeat;
+
+        /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+        /* background-attachment: fixed; */
+
+        /* 让背景图基于容器大小伸缩 */
+        background-size: cover;
+
+        /* 设置背景颜色，背景图加载过程中会显示背景色 */
+        background-color: #464646;
+    }
+    .mojuner{
+        border: 0;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .plg_pic_mmm{
+        position: relative;
+    }
+
+    .rs_mmm{
+        position: absolute;
+        z-index: 0;
+        top: 2.5%;
+        left: 30%;
+        margin: 0 0 0 0;
+        font-size: 2em;
+    }
+
+
+
+
+    /* 地區選擇 */
+    .main-list-min{
+        width:100%;
+        height:100%;
+        position: absolute;
+        z-index: 0;
+        top: 1em;
+    }
+    .main-list-min-left1 img{
+        border: 0;
+        width: 22%;
+        height:100%;
+    }
+    .main-list-min-left2 img{
+        border: 0;
+        width: 22%;
+        height:100%;
+    }
+    .main-list-min-left1{
+        width: 32%;
+        /* height: 40px; */
+        background: #ffb070;
+        position: absolute;
+        /* top: 350px; */
+        left: 10%;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+
+    }
+    .main-list-min-left2{
+        width: 32%;
+        /* height: 40px; */
+        background: #ffb070;
+        position: absolute;
+        /* top: 350px; */
+        right: 10%;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+    }
+    .main-list-min-left3{
+        width: 80%;
+        height: 15%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 40px 15px 15px 40px;
+        color: #FFF;
+        font-weight: 900;
+    }
+    .list-on{
+        color:#000;
+    }
+    .list-on span{
+        color:#000 !important;
+    }
+    .list-on .list-on-zazs{
+        display:block !important;
+    }
+
+    #CardID{
+        position: absolute;
+
+        color:#FFF;
+        font-weight: 900;
+
+        text-align:center;
+        color:#9999A5;
+
+        margin:auto;
+        left: 0;
+        right: 0;
+        top: -40%;
+        bottom: 0;
+
+        width:80%;
+        height:20%;
+        border-color: #ff8333!important;
+        -webkit-border-radius: 15px 15px 15px 15px;
+        -moz-border-radius: 15px 15px 15px 15px;
+        border-radius: 15px 15px 15px 15px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -webkit-transition: border linear .2s,box-shadow linear .2s;
+        -moz-transition: border linear .2s,box-shadow linear .2s;
+        -o-transition: border linear .2s,box-shadow linear .2s;
+        transition: border linear .2s,box-shadow linear .2s;
+    }
+    /* 地區選擇結束 */
+
+
+
+    /* 禮包列表 */
+    .main-list-min-right1{
+        position: absolute;
+        width:25%;
+        height:40%;
+        top: 30%;
+        left: 8%;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-right2{
+        position: absolute;
+        width:25%;
+        height:40%;
+        top: 30%;
+        left: 36%;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .main-list-min-right3{
+        position: absolute;
+        width:25%;
+        height:40%;
+        top: 30%;
+        left: 65%;
+        border-radius: 40px 15px 15px 40px;
+        color:#FFF;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    #mgjesww img{
+        border: 0;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    /* 禮包列表 */
+
+
+    /* 視頻 */
+    .main-list-min-rb1{
+        position: absolute;
+        z-index: 0;
+        top: 40%;
+        left:5%;
+        width: 35%;
+        height:100%;
+    }
+    .main-list-min-rb1 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    /* 視頻 */
+
+
+    /* fb */
+    .main-list-min-lb1{
+        width: 80%;
+        height: 20%;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+    .main-list-min-lb2{
+        width: 80%;
+        height: 20%;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+    .main-list-min-lb1 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    .main-list-min-lb2 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    /* FB */
+
+
+
+    /* 預約人數 */
+    .main-list-min-jb1{
+        position: absolute;
+        top: 0;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+
+    }
+    .main-list-min-jb1 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    .main-list-min-jb2{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+
+    }
+    .main-list-min-jb2 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    .main-list-min-jb3{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+
+    }
+    .main-list-min-jb3 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    .main-list-min-jb4{
+        position: absolute;
+        top: 75%;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+
+    }
+    .main-list-min-jb4 img{
+        border: 0;
+        width: 100%;
+        /* height: 100%; */
+        vertical-align: middle;
+    }
+    /* 預約人數 */
+
+
+
+    #myModal{
+        background: rgba(0, 0, 0, .7) !important;
+    }
+
+    #match_video_mp4{
+        position:fixed;
+        left:0;
+        right:0;
+        top: 0;
+        bottom:0;
+        margin:auto;
+    }
+
+</style>
+
+<body>
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_01_640x790.jpg">
+</section>
+
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_02_640x674.jpg">
+    <p class="rs_mmm">{$num}</p>
+</section>
+
+<!-- 地區選擇 -->
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_03_640x301.jpg">
+
+    <div class="main-list-min">
+        <div class="main-list-min-left1 list-on">
+            <a class="main-list-min-let1" href="javascript:;">
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/choice_on.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/choice_off.png">
+            <span style="position: absolute; top: .1em; left: 2.2em; color:#fff">台湾玩家</span>
+            </a>
+        </div>
+        <div class="main-list-min-left2">
+            <a class="main-list-min-let2" href="javascript:;">
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/choice_on.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/choice_off.png">
+            <span style="position: absolute; top: .1em; left: 2.2em; color:#fff">港澳玩家</span>
+            </a>
+        </div>
+        <div>
+            <input type="text" name="" id="CardID" placeholder="請輸入手機號碼">
+        </div>
+        <div class="main-list-min-left3">
+            <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/btn_login_hover_451x96.png" style="left: 0;position: absolute; display: none;">
+            <img class="mojuner" src="__PUBLIC__/Home/landing/pc/img/btn_login_451x96.png">
+        </div>
+    </div>
+</section>
+
+<!-- 禮包 -->
+<section class="plg_pic_mmm" id="mgjesww">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_04_640x482.jpg">
+    <div class="main-list-min-right1">
+        <a class="mjmn" href="javascript:;">
+            <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jt_hover_132x154.png" style="left: 0;position: absolute; display: none;">
+            <img src="__PUBLIC__/Home/landing/pc/img/icon_jt_132x154.png">
+        </a>
+    </div>
+
+    <div class="main-list-min-right2">
+        <a class="mjmn" href="javascript:;">
+            <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_clb_hover_150x155.png" style="left: 0;position: absolute; display: none;">
+            <img src="__PUBLIC__/Home/landing/pc/img/icon_clb_150x155.png">
+        </a>
+    </div>
+
+    <div class="main-list-min-right3">
+        <a class="mjmn" href="javascript:;">
+            <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/icon_jiut_hover_132x155.png" style="left: 0;position: absolute; display: none;">
+            <img src="__PUBLIC__/Home/landing/pc/img/icon_jiut_hover_132x155.png">
+        </a>
+    </div>
+</section>
+
+<!-- 視頻 -->
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_05_640x452.jpg">
+        <div class="main-list-min-rb1">
+            <a class="video1" href="javascript:;">
+                <img class="list-on-zazs" src="__PUBLIC__/Home/landing/pc/img/btn_pv_hover_219x119.png" style="left: 0;position: absolute; display: none;">
+                <img src="__PUBLIC__/Home/landing/pc/img/btn_pv_219x119.png">
+            </a>
+        </div>
+</section>
+
+<!-- FB -->
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_06_640x410.jpg">
+    <div class="main-list-min-lb1">
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/btn_like_click_587x96.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/btn_like_587x96.png">
+        <div>
+            <iframe id="caonimagebi" name="f139562a189d9" width="100px" height="100px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.10/plugins/like.php?action=like&amp;app_id=452695705080329&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FXBwzv5Yrm_1.js%3Fversion%3D42%23cb%3Df3df812fb0f6ae%26domain%3Dlaow.com%26origin%3Dhttp%253A%252F%252Flaow.com%252Ff2361164cfeb068%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpulongon.fun4play&amp;layout=button_count&amp;locale=zh_TW&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;size=large" style="position: absolute;    z-index: 99;    top: 20.5%;   left: 55%;" class=""></iframe>
+
+        </div>
+    </div>
+    <div class="main-list-min-lb2">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.fun4-play.com%2Fhome%2Findex%2Fevent&display=popup&ref=plugin&src=like&kid_directed_site=0&app_id=452695705080329" target="_blank">
+            <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/btn_fxfb_click_587x96.png" style="left: 0;position: absolute; display: none;">
+            <img src="__PUBLIC__/Home/landing/phone/img/btn_fxfb_587x96.png">
+        </a>
+    </div>
+</section>
+
+<!-- 預約人數獎勵 -->
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_07_640x1450.jpg">
+
+    <div class="main-list-min-jb1">
+        <?php if ($num >= 5000): ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_5000_get_626x322.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_5000_get_626x322.png">
+        <?php else: ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_5000_get_626x322.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_5000_626x322.png">
+        <?php endif; ?>
+    </div>
+    <div class="main-list-min-jb2">
+        <?php if ($num >= 10000): ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_10000_get_626x355.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_10000_get_626x355.png">
+        <?php else: ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_10000_get_626x355.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_10000_626x355.png">
+        <?php endif; ?>
+    </div>
+    <div class="main-list-min-jb3">
+        <?php if ($num >= 15000): ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_15000_get_626x387.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_15000_get_626x387.png">
+        <?php else: ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_15000_get_626x387.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_15000_626x387.png">
+        <?php endif; ?>
+    </div>
+    <div class="main-list-min-jb4">
+        <?php if ($num >= 20000): ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_20000_get_626x355.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_20000_get_626x355.png">
+        <?php else: ?>
+        <img class="list-on-zazs" src="__PUBLIC__/Home/landing/phone/img/icon_20000_get_626x355.png" style="left: 0;position: absolute; display: none;">
+        <img src="__PUBLIC__/Home/landing/phone/img/icon_20000_626x355.png">
+        <?php endif; ?>
+    </div>
+</section>
+
+<!-- 法律信息 -->
+<section class="plg_pic_mmm">
+    <img class="mojuner" src="__PUBLIC__/Home/landing/phone/img/m_bg_head_08_640x670.jpg">
+</section>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="position:fixed; margin:auto;left:0; right:0; top:0; bottom:0;background:rgba(0,0,0,.0); display:none; box-shadow:0px 0px 0px rgba(0,0,0,.3) !important;border: 0px solid rgba(0,0,0,0.3);">
+    <img style="position:fixed; margin:auto;left:0; right:0; top:-10%; bottom:0; height: 80%; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">
+    <a href="javascript:;"><img id="momoda" style="position:fixed; margin:auto;left:0; right:0; top:75%; bottom:0; width:50px; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/btn_close_71x71.png"></a>
+</div>
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="position:fixed; margin:auto;left:0; right:0; top:0; bottom:0;background:rgba(0,0,0,.0); display:none; box-shadow:0px 0px 0px rgba(0,0,0,.3) !important;border: 0px solid rgba(0,0,0,0.3);">
+<!--     <div>
+        <video width="100%" height="200" src="http://img1.famulei.com/shortVideo/2017/08/201708151705408179.mp4" controls="" id="match_video_mp4" style="display: block;"></video>
+        <a href="javascript:;"><img id="momoda1" style="position:fixed; margin:auto;left:800px; right:0; top:0; bottom:430px; width:30px; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/btn_close_71x71.png"></a>
+    </div> -->
+    <div style="margin-top:54px; margin-left:25px;position: fixed;z-index: 9999; opacity: 1; display: block; width: 20em; height: 14em;     left: 0; right: 0;   top: 0;   bottom: 0; margin: auto;" >
+        <a><img id="momoda1" style="position:absolute; margin:auto; right:10px; top:10px; width:30px;z-index: 99999; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/btn_close_71x71.png"></a>
+        <iframe style="margin-top:54px; margin-left:25px;position: fixed;z-index: 9999; opacity: 1; display: block; width: 20em; height: 14em;     left: 0; right: 0;   top: 0;   bottom: 0; margin: auto;" id="shipin" src="https://www.youtube.com/embed/c7kQQnA27e8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+$(".main-list-min").on('click', '.main-list-min-let2', function() {
+    $(".main-list-min-left1").removeClass('list-on');
+    $(".main-list-min-left2").addClass('list-on');
+});
+$(".main-list-min").on('click', '.main-list-min-let1', function() {
+    $(".main-list-min-left2").removeClass('list-on');
+    $(".main-list-min-left1").addClass('list-on');
+});
+
+$(".mjmn").on('click', function() {
+    // var that = this;
+    // layer.tips('<img style="width:100% !important; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">', that, {tips:[3,'rgba(0,0,0,.0)']});
+    $('#myModal').show();
+});
+$("#momoda").on('click', function() {
+
+    $('#myModal').hide();
+});
+$(".video1").on('click', function() {
+    // var that = this;
+    // layer.tips('<img style="width:100% !important; background:rgba(0,0,0,0) !important;" src="__PUBLIC__/Home/landing/pc/img/tc_jpxx_643x860.png">', that, {tips:[3,'rgba(0,0,0,.0)']});
+    // $('#myModal1').modal({backdrop: 'static', keyboard: false});
+    $('#shipin').attr('src', 'https://www.youtube.com/embed/c7kQQnA27e8?rel=0&amp;showinfo=0');
+    $('#myModal1').show();
+    // $('#match_video_mp4').show();
+});
+$("#momoda1").on('click', function() {
+
+    $('#shipin').attr('src', '');
+    $('#myModal1').hide();
+    // $("#match_video_mp4").trigger('pause');;
+});
+
+$(".main-list-min").on('click', '.main-list-min-left3', function() {
+    var data = {
+            'mobile' : $("#CardID").val(),
+            'are' : $(".list-on").attr('data-are')
+        }
+    $.post('preview.html', data, function(data) {
+        data = JSON.parse(data);
+        if (data.result == 1) {
+            layer.alert("預約成功");
+        }else{
+            layer.alert(data.msg);
+        };
+    });
+    // layer.alert("预约成功");
+});
+</script>

@@ -1,0 +1,66 @@
+<include file="Layout:header"/>
+<div class="container-fluid-full">
+	<div class="row-fluid">
+		<div class="login-box">
+			<h2>用户登录:</h2>
+			<form class="form-horizontal login" name="login" action="#" method="post">
+				<fieldset>
+					<input class="input-large span12" name="username" id="username" type="text" placeholder="用户名" required="true" rangelength="[2,20]" />
+					<input class="input-large span12" name="password" id="password" type="password" placeholder="密码" required="true" rangelength="[6,15]" />
+	              <!--   <div class="form-group">
+                    <label for="exampleInputCode">验证码</label>
+                    <div class="row">
+	                        <div class="col-md-8">
+	                            <input type="text"  name="verify" class="form-control" id="exampleInputCode" placeholder="验证码">
+	                        </div>
+	                        <div class="col-md-4">
+	                            <a href="javascript:void(0)"><img class="verify" src="{:U('login/verify')}" alt="点击刷新"/></a>
+	                        </div>
+	                    </div>
+	                </div> -->
+					<div class="clearfix"></div>
+					<button type="submit" class="btn btn-primary span12">登录</button>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		// 登录验证
+		$('.login').submit(function(){
+			// 验证通过
+			if ($(this).validate().form())
+			{
+				var intLoad = layer.load(2);		//加载层开
+				// ajax请求登录
+				$.ajax({
+					"url": "{:U('Index/login')}",
+					"type": "POST",
+					"data": $(this).serialize(),
+					"dataType": "json"
+				}).always(function(){	//总是执行
+					layer.close(intLoad);	//加载层关
+				}).done(function(json) {	//成功执行
+					layer.tips(json.msg, ".btn-primary", {tips: [3, (json.status == 1 ? "#78BA32" : "")], time:1000});
+					if (json.status == 1) window.location.href = "{:U('index/index')}";
+				}).fail(function(){		//失败执行
+					layer.msg("服务器繁忙，请稍候再试...", {time:800})
+				});
+			}
+
+			return false;
+		});
+
+
+		// 验证码
+        // $(".verify").click(function(){
+        //     var src = "{:U('index/verify')}";
+        //     var random = Math.floor(Math.random()*(1000+1));
+        //     $(this).attr("src",src+"&random="+random);
+
+        // });
+	});
+</script>
+</body>
+</html>

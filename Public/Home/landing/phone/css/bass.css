@@ -1,0 +1,201 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-15 16:15:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-21 17:32:07
+*/
+/**
+ * iPhone 4/4s landscape & portrait
+ */
+html{
+    // font-size: 75% !important;
+    font-family: STHeiti !important;
+    height: 100%;
+}
+body{height: 100%; font-size: 1.6rem;}
+// @media only screen
+// and (min-device-width: 320px)
+// and (max-device-width: 480px) {
+
+//     html{font-size:75% !important;}
+// }
+
+// /**
+//  *  iPhone 5/5s landscape & portrait
+//  */
+// @media only screen
+// and (min-device-width: 320px)
+// and (max-device-width: 568px) {
+
+//     html{font-size:75% !important;}
+// }
+
+// /**
+//  *  iPhone 6 landscape & Portrait
+//  */
+// @media only screen
+// and (min-device-width: 375px)
+// and (max-device-width: 667px) {
+
+//     html{font-size:87.5% !important;}
+// }
+
+// /**
+//  *  iPhone 6+  Portrait 竖屏
+//  */
+// @media only screen
+// and (min-device-width: 414px)
+// and (max-device-width: 736px)
+// and (orientation: portrait){
+
+//     html{font-size:87.5% !important;}
+// }
+
+// /**
+//  *  iPhone 6+  landscape 横屏
+//  */
+// @media only screen
+// and (min-device-width: 414px)
+// and (max-device-width: 736px)
+// and (orientation: landscape){
+
+//     html{font-size:93.75% !important;}
+// }
+// /**
+//  *  Galaxy S3 landscape & portrait
+//  */
+// @media screen
+// and (device-width: 320px)
+// and (device-height: 640px) {
+
+//     html{font-size:62.5% !important;}
+// }
+
+
+// /**
+//  *  Galaxy S5 landscape & portrait
+//  */
+// @media screen
+// and (device-width: 360px)
+// and (device-height: 640px) {
+
+//     html{font-size:75% !important;}
+// }
+
+
+// /**
+//  *  iPad  landscape & portrait
+//  */
+// @media only screen
+// and (min-device-width: 768px)
+// and (max-device-width: 1024px)
+// and (-webkit-min-device-pixel-ratio: 1) {
+
+//     html{font-size:112.5% !important;}
+// }
+
+// /**
+//  *  iPad  portrait
+//  */
+// @media only screen
+// and (min-device-width: 768px)
+// and (max-device-width: 1024px)
+// and (orientation: portrait)
+// and (-webkit-min-device-pixel-ratio: 1) {
+
+//     html{font-size:112.5% !important;}
+// }
+
+// /**
+//  *  iPad  landscape
+//  */
+// @media only screen
+// and (min-device-width: 768px)
+// and (max-device-width: 1024px)
+// and (orientation: landscape)
+// and (-webkit-min-device-pixel-ratio: 1) {
+
+//     html{font-size:24px !important;}
+// }
+// @media only screen
+// and (min-device-width: 1024px)
+// and (max-device-width: 1980px) {
+//     html{font-size:112.5% !important;}
+// }
+//
+@media screen and (min-width:50px) {
+    html {
+        font-size: 106.25% !important;
+    }
+}
+
+@media screen and (min-width:280px) {
+    html {
+        font-size: 50.25% !important;
+    }
+    #caonimagebi{
+        top: 19.5% !important;
+        left: 55% !important;
+    }
+}
+
+@media screen and (min-width:350px) {
+    html {
+        font-size: 60.25% !important;
+    }
+}
+
+@media screen and (min-width:410px) {
+    html {
+        font-size: 64.25% !important;
+    }
+    #caonimagebi{
+        top: 23.5% !important;
+        left: 55% !important;
+    }
+}
+
+@media screen and (min-width:480px) {
+    html {
+        font-size: 85.25% !important;
+    }
+}
+
+@media screen and (min-width:640px) {
+    html {
+        font-size: 103.5% !important;
+    }
+    #caonimagebi{
+        top: 35.5% !important;
+        left: 55% !important;
+    }
+}
+
+@media screen and (min-width:760px) {
+    html {
+        font-size: 120.5% !important;
+    }
+    #caonimagebi{
+        top: 35.5% !important;
+        left: 55% !important;
+    }
+}
+@media screen and (min-width:880px) {
+    html {
+        font-size: 158.5% !important;
+    }
+    #caonimagebi{
+        top: 35.5% !important;
+        left: 55% !important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    // html {
+    //     font-size: 158.5% !important;
+    // }
+    // #caonimagebi{
+    //     top: 35.5% !important;
+    //     left: 55% !important;
+    // }
+}
