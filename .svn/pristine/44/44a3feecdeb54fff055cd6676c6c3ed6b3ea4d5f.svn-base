@@ -1,0 +1,6 @@
+[ 2017-06-27T17:47:25+08:00 ] 127.0.0.1 /Rest/sdk/reg_collection
+ERR: 参数错误或者未定义:account
+
+[ 2017-06-27T19:29:30+08:00 ] 127.0.0.1 /Rest/sdk/reg_collection?account=%22sb%22
+ERR: 参数错误或者未定义:site
+

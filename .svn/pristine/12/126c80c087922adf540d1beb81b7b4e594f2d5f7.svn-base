@@ -1,0 +1,303 @@
+[ 2017-05-23T15:00:13+08:00 ] 127.0.0.1 /Rest/sdk/index
+ERR: 无法加载控制器:Sdk
+
+[ 2017-05-23T15:00:14+08:00 ] 127.0.0.1 /Rest/sdk/index
+ERR: 无法加载控制器:Sdk
+
+[ 2017-05-23T15:05:28+08:00 ] 127.0.0.1 /Rest/sdk/index
+ERR: 模板不存在:./Application/Rest/View/Layout/main.html
+
+[ 2017-05-23T15:05:37+08:00 ] 127.0.0.1 /Rest/sdk/index/index
+ERR: 模板不存在:./Application/Rest/View/Layout/main.html
+
+[ 2017-05-23T15:50:32+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:55:47+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:13+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:14+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:58:48+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:21+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:21+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:21+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T15:59:22+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T16:00:01+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T16:00:01+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T16:00:01+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T16:00:02+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T16:00:02+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T16:00:02+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:07:26+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:27+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:28+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:28+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:28+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:09:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:28+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:29+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:30+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:41+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:41+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:41+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:42+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:43+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:43+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:43+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:10:43+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:11:06+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:11:06+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'qq527469667' in 'where clause'
+
+[ 2017-05-23T19:11:36+08:00 ] 127.0.0.1 /Rest/sdk/reset
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION myser.post does not exist
+

@@ -1,0 +1,6 @@
+[ 2017-06-16T10:15:21+08:00 ] 192.168.101.48 /Home/index/notice
+ERR: XML标签语法错误 : (empty(arr))
+
+[ 2017-06-16T10:15:26+08:00 ] 192.168.101.48 /Home/index/notice
+ERR: XML标签语法错误 : (empty($arr))
+

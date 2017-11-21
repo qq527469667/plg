@@ -1,0 +1,12 @@
+[ 2017-07-03T16:48:25+08:00 ] 127.0.0.1 /Rest/sdk/siteAutoSet
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id' doesn't exist
+
+[ 2017-07-03T16:48:25+08:00 ] 127.0.0.1 /Rest/sdk/siteAutoSet
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id' doesn't exist
+
+[ 2017-07-03T16:48:25+08:00 ] 127.0.0.1 /Rest/sdk/siteAutoSet
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id' doesn't exist
+
+[ 2017-07-03T16:48:26+08:00 ] 127.0.0.1 /Rest/sdk/siteAutoSet
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id' doesn't exist
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>游戏1</title>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="http://laow.com/Public/Admin/css/bass.css">
+<link rel="stylesheet" href="http://laow.com/Public/wap/css/amazeui.css">
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://laow.com/Public/wap/js/amazeui.js"></script>
+</head>
+
+<style type="text/css">
+    .bar{
+        text-align:center;
+        background: #ff8333;
+        color:#FFF;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="bar">
+            <img src="btn_back@2x.png" alt="返回">
+            MyCard儲值
+        </div>
+    </div>
+
+    <div class="maintain">
+
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>

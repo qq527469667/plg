@@ -1,0 +1,12 @@
+[ 2017-07-13T10:27:36+08:00 ] 127.0.0.1 /admin/report/weekly.html
+ERR: Redis server went away
+
+[ 2017-07-13T10:27:37+08:00 ] 127.0.0.1 /admin/report/month.html
+ERR: Redis server went away
+
+[ 2017-07-13T10:27:41+08:00 ] 127.0.0.1 /admin/report/month.html
+ERR: Redis server went away
+
+[ 2017-07-13T10:34:32+08:00 ] 127.0.0.1 /admin/report/reportExportMore?strTitle=%E6%9C%88%E6%8A%A5%E6%95%B0%E6%8D%AE
+ERR: Invalid cell coordinate 1
+

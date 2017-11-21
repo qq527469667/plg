@@ -1,0 +1,21 @@
+[ 2017-06-07T19:14:18+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2017-06-07T19:15:01+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2017-06-07T19:15:02+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2017-06-07T19:15:02+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2017-06-07T19:15:02+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2017-06-07T19:15:03+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+
+[ 2017-06-07T19:15:03+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+

@@ -1,0 +1,33 @@
+[ 2017-05-25T14:16:21+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-05-25T16:18:26+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T16:20:12+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T16:23:12+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T16:35:01+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T16:38:45+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T16:40:09+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T17:29:38+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T17:30:59+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T18:17:18+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+
+[ 2017-05-25T18:25:34+08:00 ] 192.168.101.178 /rest/sdk/payment/item?paymentType=Apple&provider=vk_tw
+ERR: 非法操作:payment
+

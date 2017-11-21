@@ -1,0 +1,15 @@
+[ 2017-05-26T10:57:12+08:00 ] 192.168.101.178 /rest/sdk/login
+ERR: Redis server went away
+
+[ 2017-05-26T10:57:35+08:00 ] 192.168.101.178 /rest/sdk/register
+ERR: Redis server went away
+
+[ 2017-05-26T11:00:21+08:00 ] 192.168.101.178 /rest/sdk/register
+ERR: Redis server went away
+
+[ 2017-05-26T11:25:34+08:00 ] 192.168.101.178 /rest/sdk/register
+ERR: Redis server went away
+
+[ 2017-05-26T11:39:14+08:00 ] 192.168.101.178 /rest/sdk/password/reset
+ERR: 非法操作:password
+

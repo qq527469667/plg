@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>游戏1</title>
+<meta charset="utf-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/bass.css" />
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    body{
+        background-color: rgba(255, 255, 255, 0);
+    }
+    a:link,a:visited{
+        text-decoration:none;  /*超链接无下划线*/
+    }
+    a:hover{
+        text-decoration:none;  /*鼠标放上去有下划线*/
+    }
+    .news-nav {
+        margin: 0 0.2rem;
+        /* width: 7.3rem; */
+        height: 0.63rem;
+        border-radius: 20px;
+        background: #FF8333;
+    }
+/*     .news-nav .nav-one.cur {
+        border-bottom: 4px solid #7a6144;
+        color: #7a6144;
+    } */
+    .news-nav .nav-one {
+        display: block;
+        float: left;
+        width: 24.9%;
+        /* height: 100%; */
+        height: 0.56rem;
+        /* border-bottom: 4px solid #ddd; */
+        font: normal 0.26rem/0.56rem "microsoft yahei";
+        text-align: center;
+        color: #000;
+        position: relative;
+    }
+    .nav-one-die{
+        width: 5%;
+        height: 60%;
+        right: 0;
+        position: absolute;
+        top: 20%;
+        border-right: 1px solid #fff;
+    }
+    .nav-one-list{
+        width:50%;
+        /* height:100%; */
+        margin: auto;
+        /* border-bottom: 4px solid #ddd; */
+    }
+    .nav-one-list>a{
+        color:#fff;
+    }
+    .nav-one-list.cur>a{
+        color:#000;
+    }
+    .news-content {
+        /* margin: .28rem 0 0 .19rem; */
+        margin: .28rem .19rem 0 .19rem;
+        /* width: 7.16rem; */
+        /* height: 8.89rem; */
+    }
+    .newsone-detail.cur {
+        display: block;
+    }
+    .one-sm-box {
+        display: none;
+        margin-top: 0.2rem;
+        /* width: 7.16rem; */
+        /* height: 5.32rem; */
+        /* border-bottom: 4px solid #b3a798; */
+        /* background-color: #eee; */
+    }
+    .newsone-detail .on{
+        display: block;
+    }
+    .news-content{
+        display: block;
+        margin-top: 0.2rem;
+        padding: 0 .2rem;
+        /* width: 7.16rem; */
+        height: 2.76rem;
+        /* border-bottom: 4px solid #b3a798; */
+        /* background-color: #eee; */
+    }
+    .one-sm-box .one-sm {
+        display: block;
+        /* width: 7.16rem; */
+        height: .87rem;
+        text-indent: 0.05rem;
+        color: #000;
+        font: normal .18rem/.87rem "microsoft yahei";
+        /* border-bottom: 1px solid #ddd; */
+    }
+    .one-sm-box .one-sm span {
+        float: left;
+        color: #000;
+        padding-right: .1rem;
+    }
+
+    .one-sm-box .one-sm .titbox {
+        float: left;
+        font: inherit;
+        width: 76%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .lamp{
+        color:#fff !important;
+        text-shadow: 0 0 5px #E2E2E2;
+        text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff;
+    }
+
+    .panel-body{
+        padding: .1rem .1rem;
+        background: #bbbbbb;
+    }
+
+    .news-list{
+        border-radius: 100px;
+        background-color: #bbbbbb;
+        margin: 5px 0px;
+        position: relative;
+    }
+    .news-list-one{
+        border-radius: 100px;
+        background-color: #d3d3d3;
+        position: relative;
+    }
+    .lsjl-list-img{
+        position: absolute;
+        right: 20px;
+        height: 50%;
+        top: 25%;
+    }
+
+    .panel-body p{
+        font-size: .17rem !important;
+    }
+    .panel-collapse{
+        display:none;
+    }
+</style>
+<div class="notice">
+    <div class="news-nav" id="app-news-nav">
+        <!-- 综合 -->
+        <div class="nav-one">
+            <div class="nav-one-die">
+            </div>
+            <div class="nav-one-list cur">
+                <a href="javascript:;" data-id="zonghe">綜合</a>
+            </div>
+        </div>
+
+        <!-- 子类菜单 -->
+        <foreach name="type" item="vo">
+            <div class="nav-one">
+                <div class="nav-one-die">
+                </div>
+                <div class="nav-one-list">
+                    <a href="javascript:;" data-id="nemus{$vo.id}">{$vo.title}</a>
+                </div>
+            </div>
+        </foreach>
+    </div>
+    <div class="news-content">
+        <div class="newsone-detail cur">
+            <!-- 综合 -->
+            <div id="zonghe" class="one-sm-box on">
+                <foreach name="zonghe" item="vo">
+                    <div class="news-list" id="idd{$vo.id}">
+                        <div class="news-list-one" data-id="#collapsezh{$vo.id}" data-vid="{$vo.id}">
+                            <a data-toggle="collapse" data-parent="#accordion" class="one-sm <if condition='($vo.is_lamp eq 1)'>lamp</if>" ><div class="titbox">【{$vo.atype}】{$vo.title}</div><span>{$vo.edittime|date="Y-m-d ",### }</span></a>
+                            <img class="lsjl-list-img-1 lsjl-list-img" src="__PUBLIC__/wap/i/notice/notice-open.png">
+                            <img class="lsjl-list-img-2 lsjl-list-img" style="display:none;" src="__PUBLIC__/wap/i/notice/notice-close.png">
+                        </div>
+                        <div id="collapsezh{$vo.id}" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                {$vo.content}
+                            </div>
+                        </div>
+
+                    </div>
+                </foreach>
+                <?php if (empty($zonghe)) : ?>
+                    <a href="#" class="one-sm"><div class="titbox">暂无内容</div></a>
+                <?php endif; ?>
+            </div>
+
+            <!-- 子类菜单 -->
+            <foreach name="data" item="arr">
+                <div class="one-sm-box" id="nemus{$arr.tid}">
+                    <foreach name="arr" item="vo"  key="k">
+                        <?php if (is_numeric($k)) : ?>
+                            <div class="news-list" id="idd{$vo.id}">
+
+                                <div class="news-list-one" data-id="#collapse{$vo.id}" data-vid="{$vo.id}">
+                                    <a data-toggle="collapse" data-parent="#accordion" class="one-sm <if condition='($vo.is_lamp eq 1)'>lamp</if>"><div class="titbox">【{$arr.atype}】{$vo.title}</div><span>{$vo.edittime|date="Y-m-d ",### }</span></a>
+                                    <img class="lsjl-list-img-1 lsjl-list-img" src="__PUBLIC__/wap/i/notice/notice-open.png">
+                                    <img class="lsjl-list-img-2 lsjl-list-img" style="display:none;" src="__PUBLIC__/wap/i/notice/notice-close.png">
+                                </div>
+                                <div id="collapse{$vo.id}" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        {$vo.content}
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                    </foreach>
+                    <?php if (empty($arr)) : ?>
+                        <a href="#" class="one-sm"><div class="titbox">暂无内容</div></a>
+                    <?php endif; ?>
+                </div>
+            </foreach>
+        </div>
+        <div class="newsone-detail">
+  </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(".nav-one-die:last").removeClass('nav-one-die');
+
+    $("#app-news-nav").on('click', 'a', function() {
+        // alert("213");
+        // 新闻内容的展示
+        $('.one-sm-box').removeClass('on');
+        $("#"+$(this).attr('data-id')).addClass('on');
+
+        // 标题的展示
+        $('.nav-one-list').removeClass('cur');
+        $(this).closest(".nav-one-list").addClass('cur');
+
+
+        // 关闭
+        $('.sadjalfa').removeAttr("data-sadjl");
+        var id1 = $('.sadjalfa').attr('data-id');
+        $(id1).removeClass('in');
+        $(id1).css('height','0px');
+
+        $('.sadjalfa').removeClass('sadjalfa');
+    });
+
+    $(".news-list").on('click', '.news-list-one', function() {
+        // 新闻内容的展示
+        // alert(213);
+        // $(".collapse.in").collapse('hide');
+        var id = $(this).attr('data-id');
+        var isTure = $(this).attr('data-sadjl');
+        var idd = $(this).attr('data-vid');
+        // alert(id);
+        if (isTure == 'true') {
+            $(id).removeClass('in');
+            $(id).hide();
+            $('.sadjalfa').removeAttr("data-sadjl");
+            // 圖標改變
+            $('.sadjalfa').closest(".news-list").find('.lsjl-list-img-1').show();
+            $('.sadjalfa').closest(".news-list").find('.lsjl-list-img-2').hide();
+            $('.sadjalfa').removeClass('sadjalfa');
+        }else{
+            // 关闭
+            $('.sadjalfa').removeAttr("data-sadjl");
+            var id1 = $('.sadjalfa').attr('data-id');
+            $(id1).removeClass('in');
+            $(id1).hide();
+
+            // 圖標改變
+            $('.sadjalfa').closest(".news-list").find('.lsjl-list-img-1').show();
+            $('.sadjalfa').closest(".news-list").find('.lsjl-list-img-2').hide();
+
+            $('.sadjalfa').removeClass('sadjalfa');
+
+
+
+            // 设置 class 标志 显示
+            $(this).attr('data-sadjl', 'true');
+            $(this).addClass('sadjalfa');
+            $(id).addClass('in');
+            $(id).show(50);
+
+
+            // 圖標改變
+            $(this).closest(".news-list").find('.lsjl-list-img-1').hide();
+            $(this).closest(".news-list").find('.lsjl-list-img-2').show();
+        }
+        goDiv(idd);
+    });
+
+    // div 跳到頂部
+    function goDiv(div) {
+        var a = $("#idd"+div).offset().top;
+        $("html,body").animate({scrollTop:a}, 'slow');
+    }
+</script>

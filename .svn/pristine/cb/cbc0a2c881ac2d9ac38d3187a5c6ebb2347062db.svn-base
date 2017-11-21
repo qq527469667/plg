@@ -1,0 +1,15 @@
+[ 2017-06-01T15:23:14+08:00 ] 192.168.101.185 /rest/sdk/buoys?site=renren
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_game' doesn't exist
+
+[ 2017-06-01T15:23:22+08:00 ] 192.168.101.185 /rest/sdk/buoys?site=renren
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_game' doesn't exist
+
+[ 2017-06-01T15:23:59+08:00 ] 192.168.101.185 /rest/sdk/buoys?site=renren
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_game' doesn't exist
+
+[ 2017-06-01T15:24:07+08:00 ] 192.168.101.185 /rest/sdk/buoys?site=renren
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_game' doesn't exist
+
+[ 2017-06-01T15:24:14+08:00 ] 192.168.101.178 /rest/sdk/buoys?site=renren
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_game' doesn't exist
+

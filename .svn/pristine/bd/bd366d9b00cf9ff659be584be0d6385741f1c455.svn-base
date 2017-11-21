@@ -1,0 +1,123 @@
+body{background:#dddddd;}
+img{vertical-align: sub;}
+/* 大小劃分 */
+.header{
+    height:7%;
+}
+.maintain{
+    margin-top: 3.6%;
+    height:9.4%;
+}
+.mainbody{
+    height:77%;
+    display:none;
+}
+
+.mainbody1{
+    height:47%;
+}
+.footer{
+    height:53%;
+}
+
+/* 頭部 */
+.bar{
+    text-align:center;
+    background: #ff8333;
+    color:#FFF;
+    position: relative;
+}
+.bar img{
+    width:1.4em;
+    top: .25em;
+    left: 2.4%;
+    position:absolute;
+}
+
+/* 中部 */
+.maintain-1{
+    background: #ff8333;
+    width: 89.12%;
+    height: 100%;
+    margin: auto;
+    border-radius: .9em .9em 0 0;
+    overflow:hidden;
+}
+.maintain-1-tab{
+    /* background: #fff; */
+    border-radius: .8em .8em 0 0;
+
+    height:101%;
+}
+.maintain-1-tab-chil{
+    width:50%;
+
+    float: left;
+}
+.tab-on{
+    background: #fff;
+    border-radius: .8em .8em 0 0;
+    height: 100%;
+}
+.body-on{
+    display:block;
+}
+.maintain-1-tab-ce{
+    font-size: .6em;
+    text-align: center;
+    margin: auto;
+    width:22.2%;
+    border-bottom: .3em solid #ff8333;
+    height:99%;
+    padding-top: .4em;
+}
+
+
+
+/* 模版結束 */
+
+
+    /* 历史记录 */
+    .mainbody-ls{
+        /* height:100%; */
+        padding-bottom: 5px;
+        width:89.2%;
+        margin:auto;
+        background:#fff;
+
+        font-size:.6em;
+    }
+    .mainbody-ls-title{
+        color:#ff0000;
+        border-bottom: 1px solid #dedede;
+        padding-left: 25px;
+        padding-top: 14px;
+        padding-bottom: 10px;
+    }
+
+    /* 历史记录列表 */
+    .mainbody-ls-list{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .mainbody-ls-list li{
+        margin-bottom:10px;
+    }
+
+    .lsjl-list{
+        position: relative;
+        border:1px solid #dedede;
+        width:100%;
+        box-shadow: 2px 2px 2px #dedede;
+    }
+    .lsjl-list p{
+        margin: 0;
+        padding: 3px 15px;
+    }
+    .lsjl-list img{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width:5%;
+    }

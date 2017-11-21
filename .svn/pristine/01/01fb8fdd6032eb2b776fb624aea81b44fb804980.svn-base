@@ -1,0 +1,3 @@
+[ 2017-07-25T17:28:04+08:00 ] 127.0.0.1 /rest/google/validate_google_pay
+ERR: 参数错误或者未定义:receipt_data
+

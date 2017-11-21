@@ -1,0 +1,3 @@
+[ 2017-06-20T14:21:04+08:00 ] 127.0.0.1 /Rest/sdk/payment/createOrder
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_order_1_db1' doesn't exist
+

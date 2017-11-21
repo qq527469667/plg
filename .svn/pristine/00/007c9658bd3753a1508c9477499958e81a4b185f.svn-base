@@ -1,0 +1,108 @@
+[ 2017-07-04T10:17:07+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:17:07+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:17:07+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:17:07+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:18:28+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:18:28+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:18:28+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T10:18:28+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:20+08:00 ] 192.168.101.40 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:20+08:00 ] 192.168.101.40 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:21+08:00 ] 192.168.101.40 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:21+08:00 ] 192.168.101.40 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:21+08:00 ] 192.168.101.40 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:21+08:00 ] 192.168.101.40 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:21+08:00 ] 192.168.101.40 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T11:46:21+08:00 ] 192.168.101.40 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T14:00:14+08:00 ] 127.0.0.1 /admin/report/daySearch.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_my_record_game_id1' doesn't exist
+
+[ 2017-07-04T14:33:21+08:00 ] 127.0.0.1 /admin/games/origin.html
+ERR: 非法操作:origin
+
+[ 2017-07-04T15:33:29+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:29+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:29+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:29+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:34+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:34+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:34+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:33:34+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T15:59:44+08:00 ] 127.0.0.1 /sdk/rest/siteAutoSet
+ERR: 无法加载控制器:Sdk
+
+[ 2017-07-04T18:19:53+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T18:19:53+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T18:19:53+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T18:19:53+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-07-04T18:20:01+08:00 ] 127.0.0.1 /admin/report/day.html
+ERR: XML标签语法错误 : name="package" item="vo" <if condition="($vo.id eq $package_id)"
+
+[ 2017-07-04T19:09:31+08:00 ] 127.0.0.1 /admin/report/daySearch.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id2' doesn't exist
+
+[ 2017-07-04T19:40:11+08:00 ] 127.0.0.1 /admin/report/weekly.html
+ERR: 非法操作:weekly
+
+[ 2017-07-04T19:41:36+08:00 ] 127.0.0.1 /admin/report/weekly.html
+ERR: 非法操作:weekly
+
+[ 2017-07-04T19:41:53+08:00 ] 127.0.0.1 /admin/report/weekly.html
+ERR: 非法操作:weekly
+

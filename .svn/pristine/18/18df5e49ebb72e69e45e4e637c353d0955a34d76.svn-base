@@ -1,0 +1,107 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-15 16:15:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-07-04 17:09:44
+*/
+/**
+ * iPhone 4/4s landscape & portrait
+ */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    html{font-size:42.5px;}
+}
+
+/**
+ *  iPhone 5/5s landscape & portrait
+ */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+
+    html{font-size:42.5px;}
+}
+
+/**
+ *  iPhone 6 landscape & Portrait
+ */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+
+    html{font-size:70px;}
+}
+
+/**
+ *  iPhone 6+  Portrait & landscape
+ */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px){
+
+    html{font-size:56px;}
+}
+
+/**
+ *  Galaxy S3 landscape & portrait
+ */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px) {
+
+    html{font-size:43px;}
+}
+
+
+/**
+ *  Galaxy S5 landscape & portrait
+ */
+@media screen
+and (device-width: 360px)
+and (device-height: 640px) {
+
+    html{font-size:48px;}
+}
+
+
+/**
+ *  iPad  landscape & portrait
+ */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    html{font-size:90px;}
+}
+
+/**
+ *  iPad  portrait
+ */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    html{font-size:90px;}
+}
+
+/**
+ *  iPad  landscape
+ */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    html{font-size:120px;}
+}
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1980px) {
+    html{font-size:120px;}
+}

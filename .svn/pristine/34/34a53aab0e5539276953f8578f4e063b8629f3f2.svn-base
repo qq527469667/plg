@@ -1,0 +1,6 @@
+[ 2017-10-31T20:41:24+08:00 ] 127.0.0.1 /admin/unitChoice/search
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'plg.my_' doesn't exist
+
+[ 2017-10-31T20:44:50+08:00 ] 127.0.0.1 /admin/unitChoice/search
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'plg.my_' doesn't exist
+

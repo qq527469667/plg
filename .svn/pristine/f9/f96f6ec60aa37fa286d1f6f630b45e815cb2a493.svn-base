@@ -1,0 +1,645 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    width: 100%;
+    vertical-align: top;
+}
+
+ul,li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+h1,div,ul,li,em,i,form {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    -webkit-tap-highlight-color: transparent;
+    font-style: normal;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    height: 100%;
+    min-width: 6.4rem;
+    font-size: 312.5%;
+}
+
+body {
+    font-size: .24em;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+    line-height: 1.5;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 100%;
+    background: #0e1015;
+    color: #3aa5ff;
+}
+
+a {
+    text-decoration: none;
+    outline: one;
+    color: #3aa5ff;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+.header p,.download-box {
+    position: relative;
+}
+
+.header a,.download-box a {
+    position: absolute;
+    font-size: 0;
+}
+
+a.package {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mtopbutton.png) no-repeat;
+    background-size: 1.41rem auto;
+    width: 1.41rem;
+    height: .51rem;
+    display: inline-block;
+    top: .22rem;
+}
+
+a.package {
+    left: .2rem;
+    background-position: 0 -.59rem;
+}
+
+a.video1 {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mvideo.png) no-repeat;
+    background-size: .95rem auto;
+    width: .95rem;
+    height: .95rem;
+    display: inline-block;
+    top: .12rem;
+    right: 1.2rem;
+}
+
+.download-box {
+    text-align: center;
+}
+
+.download-box a {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mbutton.jpg) no-repeat;
+    background-size: 2.59rem auto;
+    width: 2.59rem;
+    height: .81rem;
+    display: inline-block;
+    top: 0;
+}
+
+.download-box a.ios-button {
+    left: .5rem;
+}
+
+.download-box a.data-button {
+    background-position: 0 -.81rem;
+    right: .5rem;
+}
+
+.download-box a.android-button {
+    background-position: 0 -1.62rem;
+    right: .5rem;
+}
+
+.myflexslider {
+    position: relative;
+}
+
+.flex-control-nav {
+    position: absolute;
+    bottom: .15rem;
+    left: .15rem;
+    font-size: 0;
+}
+
+.tab_content li i,.service_content i,.header a.back em {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_micon.png) no-repeat;
+}
+
+.tabs_item {
+    display: none;
+}
+
+.tabs_item:first-child {
+    display: block;
+}
+
+.news-box .title,.service_content h1 {
+    font-size: .28rem;
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mtitlebg.gif) no-repeat;
+    background-size: 100%;
+    height: .62rem;
+}
+
+.news-box .title {
+    width: 100%;
+    text-align: center;
+    line-height: .58rem;
+}
+
+.news-box,.detail-box {
+    position: relative;
+}
+
+.news-box .title li {
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    position: relative;
+    height: .62rem;
+}
+
+.news-box .tabs li {
+    width: 20%;
+}
+
+.news-box .title a {
+    color: #FFF;
+}
+
+.hot-box,.tab_content {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mbg.gif);
+}
+
+.hot-box {
+    padding: .2rem .2rem 0 .2rem;
+    overflow: hidden;
+}
+
+.hot-box .pic {
+    float: left;
+    width: 30%;
+    margin: .1rem .2rem 0 0;
+}
+
+.hot-box p,.hot-box a {
+    color: #CCC;
+}
+
+.hot-box a {
+    float: right;
+}
+
+.hot-box a:hover,a.list-more:hover {
+    color: #FFF;
+}
+
+.tab_content .tabs_item {
+    padding: .1rem;
+}
+
+.news-box .title .current {
+    font-weight: bold;
+}
+
+.tab_content .tabs_item {
+    padding-bottom: .8rem;
+}
+
+.tab_content li {
+    padding: .1rem 0;
+    border-bottom: 1px dashed #3073b4;
+    overflow: hidden;
+    position: relative;
+    line-height: .5rem;
+}
+
+.tab_content a.more {
+    position: absolute;
+    right: .08rem;
+    top: .18rem;
+    color: #FFF;
+    font-size: .2rem;
+}
+
+.tabs_item span {
+    float: right;
+    font-size: .24rem;
+}
+
+.tabs_item li a {
+    padding-left: .02rem;
+    float: left;
+    width: 80%;
+    height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.title .current i {
+    width: 0;
+    height: 0;
+    border-left: .1rem solid transparent;
+    border-right: .1rem solid transparent;
+    border-top: .1rem solid #FFF;
+    position: absolute;
+    left: 50%;
+    bottom: .02rem;
+    margin-left: -.1rem;
+}
+
+.service_content {
+    color: #FFF;
+    margin-top: .05rem;
+    background: #242c44;
+    padding-bottom: .2rem;
+    border-bottom: 1px solid #1c3e78;
+    overflow: hidden;
+}
+
+.service_content h1 {
+    padding: .1rem 0 0 .2rem;
+    line-height: .26rem;
+}
+
+.service_content h1 em {
+    display: block;
+    font-size: .14rem;
+    color: #a3a9c3;
+}
+
+.service_content ul {
+    padding: .2rem 0;
+    overflow: hidden;
+}
+
+.service_content li {
+    float: left;
+    width: 31%;
+    text-align: center;
+}
+
+.service_content .email {
+    width: 38%;
+}
+
+.service_content span {
+    display: inline-block;
+    text-align: left;
+    font-size: .2rem;
+}
+
+.tab_content li i {
+    float: left;
+    margin-top: .12rem;
+}
+
+.tab_content li i,.service_content i,.header a.back em {
+    background-size: .3rem auto;
+    width: .3rem;
+    height: .3rem;
+    display: inline-block;
+}
+
+.service_content i {
+    margin: .15rem .05rem 0 0;
+    vertical-align: top;
+}
+
+.service_content .tel i {
+    background-position: 0 -.43rem;
+}
+
+.service_content .email i {
+    background-position: 0 -.85rem;
+}
+
+.service_content .qq i {
+    background-position: 0 -1.31rem;
+}
+
+.service_content .group {
+    text-align: center;
+}
+
+.service_content .group i {
+    background-position: 0 -1.77rem;
+}
+
+.footer {
+    background: #131d3b;
+    color: #FFF;
+    display: block;
+    margin-top: .05rem;
+    text-align: center;
+    padding: .25rem  0;
+}
+
+.footer span {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mfooter_logo.png) no-repeat;
+    background-size: 1.27rem auto;
+    height: .46rem;
+    padding-left: 1.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .18rem;
+    line-height: .23rem;
+    text-align: left;
+}
+
+.content-list {
+    width: 94%;
+    margin: 0 auto;
+    padding: .2rem 0;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.content-list h1 {
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: .28rem;
+    text-align: center;
+    padding: .15rem 0;
+}
+
+.content-list .note {
+    text-align: center;
+    background: #EBEBEB;
+    font-size: .2rem;
+    display: block;
+    width: 80%;
+    margin: .25rem auto .3rem auto;
+    line-height: .45rem;
+}
+
+.content-list p {
+    padding: 0 .15rem .2rem .15rem;
+}
+
+a.list-more {
+    text-align: center;
+    display: block;
+    color: #CCC;
+    padding-top: .2rem;
+}
+
+.top {
+    border: 1px solid #CCC;
+    border-radius: .6rem;
+    width: .6rem;
+    height: .6rem;
+    text-align: center;
+    display: block;
+    line-height: .75rem;
+    font-weight: bold;
+    font-size: .2rem;
+    position: absolute;
+    right: .1rem;
+    bottom: .1rem;
+    color: #CCC;
+}
+
+.top em::after {
+    content: '';
+    display: inline-block;
+    width: .12rem;
+    height: .12rem;
+    border-right: 3px solid #CCC;
+    border-bottom: 3px solid #CCC;
+    -webkit-transform: translateY(-100%) rotateZ(-135deg);
+    -moz-transform: translateY(-100%) rotateZ(-135deg);
+    -ms-transform: translateY(-100%) rotateZ(-135deg);
+    position: absolute;
+    top: .28rem;
+    left: .24rem;
+}
+
+.top a {
+    color: #CCC;
+}
+
+.detail-box {
+    background: #242c44;
+    border-top: 1px solid #1c3e78;
+    border-bottom: 1px solid #1c3e78;
+    padding: .3rem .1rem;
+    color: #CCC;
+    word-break: break-all;
+}
+
+.detail-box P {
+    padding: .1rem;
+    line-height: .42rem;
+    overflow: hidden;
+}
+
+.detail-box h1 {
+    color: #FFF;
+    font-size: .28rem;
+    background: #2b3952;
+    padding: .1rem;
+    text-align: center;
+    display: block;
+    margin: .1rem 0;
+}
+
+.date {
+    text-align: center;
+    font-size: .24rem;
+    display: block;
+    padding-bottom: .2rem;
+}
+
+.header a.back {
+    font-size: .28rem;
+    color: #CCC;
+    bottom: .2rem;
+    right: .3rem;
+}
+
+.header a.back em {
+    background-position: 0 -2.15rem;
+    vertical-align: middle;
+}
+
+.video-js .vjs-tech,.vjs-default-skin .vjs-control-bar {
+    z-index: 1;
+}
+
+.cd-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(94, 110, 141, 0.9);
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    z-index: 99;
+}
+
+.cd-popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.cd-popup-container {
+    position: relative;
+    width: 98%;
+    margin: 10% auto 0 auto;
+    text-align: center;
+    background: #000;
+    border-radius: .25em .25em .4em .4em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    padding: 6% 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.cd-popup-close {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.cd-popup-close::before,.cd-popup-close::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    width: 14px;
+    height: 3px;
+    background: #FFF;
+}
+
+.cd-popup-close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 8px;
+}
+
+.cd-popup-close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 8px;
+}
+
+.is-visible .cd-popup-container {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0)-o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+a.bbs,a.baidu {
+    background: url(http://content.gamebean.com/image/blr/new/mobile/n_mtop_icon.png) no-repeat;
+    background-size: .6rem auto;
+    width: .6rem;
+    height: .6rem;
+    display: inline-block;
+    top: .2rem;
+    right: 1rem;
+}
+
+a.bbs {
+    background-position: 0 -.6rem;
+    right: .2rem;
+}
+
+.wxcont {
+    background: #ffffff;
+    position: absolute;
+    top: 0.8rem;
+    left: 0.2rem;
+}
+
+.wxcont img {
+    width: 1.52rem;
+    height: 1.52rem;
+}
+
+.service_content .m_left {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    float: left;
+}
+
+.service_content .m_right {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    padding-top: .3rem;
+}
+
+.service_content ul img {
+    width: 1.52rem;
+    height: 1.52rem;
+    display: inline-block;
+}
+
+@media screen and (min-width:350px) {
+    html {
+        font-size: 342%;
+    }
+}
+
+@media screen and (min-width:410px) {
+    html {
+        font-size: 400%;
+    }
+}
+
+@media screen and (min-width:480px) {
+    html {
+        font-size: 469%;
+    }
+}
+
+@media screen and (min-width:640px) {
+    html {
+        font-size: 625%;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+[ 2017-06-28T18:17:52+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:17:53+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:17:55+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:18:27+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:19:16+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:19:48+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:19:48+08:00 ] 127.0.0.1 /Rest/sdk/login
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_record_total_game_idrenren' doesn't exist
+
+[ 2017-06-28T18:47:16+08:00 ] 192.168.101.43 //rest/sdk/news?site=renren
+ERR: 非法操作:news
+
+[ 2017-06-28T18:47:32+08:00 ] 192.168.101.43 //rest/sdk/news?site=renren
+ERR: 非法操作:news
+
+[ 2017-06-28T18:47:46+08:00 ] 192.168.101.40 //rest/sdk/news?site=renren
+ERR: 非法操作:news
+
+[ 2017-06-28T18:48:22+08:00 ] 192.168.101.40 //rest/sdk/news?site=renren
+ERR: 非法操作:news
+
+[ 2017-06-28T20:00:32+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_total_game_id1' doesn't exist
+
+[ 2017-06-28T20:01:57+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_total_game_id1' doesn't exist
+
+[ 2017-06-28T20:05:16+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_game_id' doesn't exist
+
+[ 2017-06-28T20:18:10+08:00 ] 127.0.0.1 /Rest/sdk/register
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_record_total_game_id1' doesn't exist
+

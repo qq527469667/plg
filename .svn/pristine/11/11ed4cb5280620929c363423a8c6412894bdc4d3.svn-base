@@ -1,0 +1,69 @@
+[ 2017-06-05T10:51:10+08:00 ] 192.168.101.40 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T10:51:10+08:00 ] 192.168.101.40 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T10:51:10+08:00 ] 192.168.101.40 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T10:51:10+08:00 ] 192.168.101.40 /Public/js/jcrop/jquery.Jcrop.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T10:51:10+08:00 ] 192.168.101.40 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:01:07+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:01:07+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:01:07+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:01:07+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:01:07+08:00 ] 127.0.0.1 /Public/js/jcrop/jquery.Jcrop.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:05:16+08:00 ] 127.0.0.1 /admin/wares/index.html
+ERR: 无法加载控制器:Wares
+
+[ 2017-06-05T15:13:08+08:00 ] 127.0.0.1 /admin/wares/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myser.my_wares' doesn't exist
+
+[ 2017-06-05T15:37:19+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:19+08:00 ] 127.0.0.1 /Public/js/jcrop/jquery.Jcrop.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:19+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:19+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:19+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:27+08:00 ] 127.0.0.1 /Public/css/bootstrap-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:27+08:00 ] 127.0.0.1 /Public/css/style-responsive.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:27+08:00 ] 127.0.0.1 /Public/css/jquery.datetimepicker.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:27+08:00 ] 127.0.0.1 /Public/css/retina.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T15:37:27+08:00 ] 127.0.0.1 /Public/js/jcrop/jquery.Jcrop.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-06-05T19:15:01+08:00 ] 127.0.0.1 /admin/wares/add.html
+ERR: 非法操作:add
+
